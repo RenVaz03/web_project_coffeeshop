@@ -6,3 +6,40 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.header {
+  background-color: #ffffff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__logo {
+  position: relative;
+}
+
+.nav__links {
+}
+
+.nav__link {
+}
+
+.header__content {
+}
+
+.header__title {
+}
+
+.header__description {
+}
+.header__image {
+}
+.header__footer {
+}
+.paragraph {
+}
