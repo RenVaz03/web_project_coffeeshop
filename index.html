@@ -7,7 +7,6 @@
     <meta name="author" content="Renata Vazquez Valdespino" />
     <meta name="keywords" content="coffeeshop" />
     <title>Triple Cafeteria</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="favicon.ico.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,7 +33,7 @@
               <a href="#reservation" class="nav__link">Reservar una mesa</a>
             </li>
             <li>
-              <a href="" class="nav__link">Contactos</a>
+              <a href="#footer" class="nav__link">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -156,7 +155,42 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="../images/logo_coffeeshop_light.svg"
+            alt="triple espresso logo"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__content_social">
+            <h2 class="footer__content_social-heading">Redes Sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="images/facebook_white.svg"
+                    alt="facebook logo"
+                    class="footer__social-icon"
+                  />
+                  facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="images/instagram_white.svg"
+                    alt="instagram logo"
+                    class="footer__social-icon"
+                  />
+                  instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Renata Vazquez Valdespino</p>
+      </footer>
     </div>
   </body>
 </html>
